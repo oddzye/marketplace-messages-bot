@@ -1,0 +1,15 @@
+{
+  "name": "MarketplaceCheckMessagesBot",
+  "version": "0.0.1-alpha",
+  "description": "Телеграм бот, который пересылает сообщения с маркетплейсов(авито, юла) в бот",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Tsarev Dmitry",
+  "license": "ISC",
+  "dependencies": {
+    "node-telegram-bot-api": "0.50.0",
+    "puppeteer": "^5.5.0"
+  }
+}
